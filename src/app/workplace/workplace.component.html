@@ -1,0 +1,66 @@
+<!--<div class="wrapper d-flex flex-wrap" >
+    <div class="block-repo animate__animated animate__fadeInUp col-12 col-sm-12 col-md-12 col-lg-4" *ngFor="let item of repos">
+        <div style="background-color: red;" class="block-repo-in d-flex ">
+           <div class="left d-flex">
+                <div class="top">
+                    <img style="width: 90%; height: 100%;" src="../../assets/img/{{item.image}}" alt="Descripción de la imagen">
+                </div>
+                <br>
+                <div class="bottom">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-6">
+                            <div class="tittle">{{item.name}}</div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <button (click)="navegarAComponenteDestino(item)">See More</button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-2">
+                            <button><a [href]="item.linkGit" target="_blank"><i class="uil uil-external-link-alt"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+    </div>
+
+</div>-->
+
+<div class="container">
+   <div class="body" style=" margin: 1%;">
+        
+        <div class="header">
+            <div class="mainTittle" style="margin-bottom: 2%;">
+                <h1>Web Developer Portfolio</h1>
+            </div>
+            <div class="mainDesc" style="margin-bottom: 2%; font-size: 1.2rem;">
+                <p>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations. </p>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-lg-4 animate__animated animate__fadeInUp" *ngFor="let item of repos" style="margin-bottom: 3%;">
+                <div class="top">
+                    <img style="width: 90%; height: 150px;" src="../../assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
+                </div>
+                
+                <div class="bottom" style="margin-top: 1%;">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="tittle">{{item.name}}</div>
+                        </div>
+                        <div class=" col-lg-4">
+                            
+                            <a (click)="navegarAComponenteDestino(item)">SEE MORE</a>
+                        </div>
+                        <!--<div class="col-lg-3">
+                            <button><a [href]="item.linkGit" target="_blank"><i class="uil uil-external-link-alt"></i></a></button>
+                        </div>-->
+                    </div>
+                </div>
+        </div>
+        </div>
+   </div>
+</div>
+
+

@@ -1,0 +1,23 @@
+.tittle{
+    font-size: 1rem;
+    
+}
+
+a{
+    
+    font-size: 1rem;
+}
+
+a:hover {
+    font-style: italic;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
+
+img{
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+}

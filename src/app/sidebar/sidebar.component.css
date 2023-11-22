@@ -1,0 +1,43 @@
+.wrapper{
+    padding: 1rem;
+}
+
+.tittle{
+    font-size: 4rem;
+}
+
+.sub-tittle{
+    padding: 0.5rem 0;
+}
+
+.pre-tittle{
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0.5rem 0;
+    color: #ffffffdb;
+}
+
+.desc{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: .2px;
+    color: #ffffffdb;
+}
+
+.links{
+    .block{
+        height: 8rem;
+        padding: .15rem;
+        display: block;
+        .block-in{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            font-size: 2rem;
+            background: #ffffff0a;
+        }
+    }
+}
