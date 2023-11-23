@@ -14,15 +14,17 @@ export class InfoRepoComponent implements OnInit{
 
   images: any[] | undefined;
   public imagenPrincipal: string;
+
   
   constructor(private route: ActivatedRoute) {
     this.images = this.repo?.image;
     this.imagenPrincipal = "";
+
    }
 
   ngOnInit() {
     
-    //console.log(this.repo?.image[0]); // Mostrará 'valor1'
+    console.log(this.repo?.linkPage); // Mostrará 'valor1'
     this.mostrarGaleria();
   }
 

@@ -1,20 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root{
---color-1: #BFAF9B;
+--color-1: #ded8cf;
 --color-2: #8E7068;
+--color-text: #000;
 }
 
 html, body{
     margin: 0;
     padding: 0;
     background-color: var(--color-1);
-    color: white;
+    color: var(--color-text);
     font-family: 'Cabin', sans-serif;
 }
 
 a, a:visited,a:hover, a:link {
-    color: white;
+    color: var(--color-text);
 }
 
 h1,h2{

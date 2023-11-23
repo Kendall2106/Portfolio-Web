@@ -13,7 +13,7 @@
 .pre-tittle{
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 0.5rem 0;
-    color: #ffffffdb;
+    color: var(--color-text);
 }
 
 .desc{
@@ -21,7 +21,7 @@
     font-size: 1.2rem;
     line-height: 1.8rem;
     letter-spacing: .2px;
-    color: #ffffffdb;
+    color: var(--color-text);
 }
 
 .links{
@@ -29,6 +29,7 @@
         height: 8rem;
         padding: .15rem;
         display: block;
+        
         .block-in{
             width: 100%;
             height: 100%;
@@ -38,6 +39,7 @@
             align-items: center;
             font-size: 2rem;
             background: #ffffff0a;
+            
         }
     }
 }

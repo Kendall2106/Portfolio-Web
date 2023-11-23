@@ -22,6 +22,7 @@ img {
     height: auto;
     border-style: solid;
     border-color: white;
+    background-color: #fff;
 }
 
 figure img {
@@ -44,7 +45,8 @@ figure img:hover {
  }
 
 .about_img img {
-    height: 80%;
+    height: 400px;
+    object-fit: contain;
 }
 
 h2{
@@ -52,7 +54,7 @@ h2{
 }
 
 button{
-    background-color: #BFAF9B;
+    background-color: var(--color-1);
     border: none;
     box-shadow: 0 0 29px #3c3c3c6b;
     font-size: 1.2rem;
@@ -71,8 +73,8 @@ a{
     display: inline-block;
     margin: 5px;
     padding: 8px;
-    background-color: #BFAF9B;
-    color: #fff;
+    background-color: var(--color-1);
+    color: var(--color-text);
     box-shadow: 0 0 29px #3c3c3c6b;
     border-radius: 5px;
     font-family: Arial, sans-serif;

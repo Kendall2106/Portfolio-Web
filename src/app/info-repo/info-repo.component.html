@@ -12,7 +12,7 @@
 </div>-->
 
 <div class="wrapper">
-    <div class="headerPrin" style=" margin-right: 10%; margin-left: 10%; margin-top: 3%; margin-bottom: none; border-style: solid; border-color: white;">
+    <div class="headerPrin" style=" margin-right: 10%; margin-left: 10%; margin-top: 3%; margin-bottom: none; border-style: solid; border-color: var(--color-text);">
            <!-- <div class="title">
                 <h1>{{repo?.name}}</h1>
             </div>
@@ -26,8 +26,10 @@
             
                 <div class="row">
                     <div class="part2 col-lg-12" style="text-align: right;">
-                        <div class="part3">
+                        <div *ngIf="repo?.linkPage != ''">
                             <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button><br>
+                        </div>
+                        <div *ngIf="repo?.linkGit != ''">
                             <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
                         </div>
                     </div>
@@ -43,7 +45,7 @@
 
             
     </div>
-    <div class="bodyPrin" style=" margin-right: 10%; margin-left: 10%; border-style: solid; border-color: white;">
+    <div class="bodyPrin" style=" margin-right: 10%; margin-left: 10%; border-style: solid; border-color: var(--color-text);">
         <div class="text" style="margin: 8%;">
             <div class="about">
                 <h2>About</h2>
