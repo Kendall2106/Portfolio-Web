@@ -27,7 +27,7 @@
 </div>-->
 
 <div class="container">
-   <div class="body" style=" margin: 1%;">
+   <div class="body" style=" margin: 1%; margin-top: 3%;">
         
         <div class="header">
             <div class="mainTittle" style="margin-bottom: 2%;">
@@ -41,7 +41,7 @@
         <div class="row ">
             <div class="col-lg-4 animate__animated animate__fadeInUp" *ngFor="let item of repos" style="margin-bottom: 3%;">
                 <div class="top">
-                    <img style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
+                    <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
                     
                 </div>
                 

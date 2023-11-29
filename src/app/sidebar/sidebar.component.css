@@ -11,17 +11,19 @@
 }
 
 .pre-tittle{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+    
     padding: 0.5rem 0;
     color: var(--color-text);
 }
 
 .desc{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 1rem;
     line-height: 1.8rem;
     letter-spacing: .2px;
     color: var(--color-text);
+    margin-top: 5%;
 }
 
 .links{
@@ -42,4 +44,10 @@
             
         }
     }
+    .block:hover{
+         opacity: 30%;
+    }
 }
+
+
+

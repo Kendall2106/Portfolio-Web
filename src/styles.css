@@ -11,7 +11,7 @@ html, body{
     padding: 0;
     background-color: var(--color-1);
     color: var(--color-text);
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 
 a, a:visited,a:hover, a:link {

@@ -77,10 +77,12 @@ a{
     color: var(--color-text);
     box-shadow: 0 0 29px #3c3c3c6b;
     border-radius: 5px;
-    font-family: Arial, sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
     text-align: center;
     text-decoration: none;
 }
+
+
 
 
 

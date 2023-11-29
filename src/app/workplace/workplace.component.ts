@@ -32,10 +32,10 @@ export class WorkplaceComponent implements OnInit {
    /* {  name: 'IONIC', description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis ullam, ut quisquam illo et non tempora reiciendis accusamus nesciunt maiores labore alias animi laborum provident doloremque facilis, quibusdam voluptatem.', image: "img1.jpg",linkPage:"",linkGit:"https://github.com/"},
     {  name: 'IONIC POKEMON', description:'', image: "img2.jpg",linkPage:"",linkGit:""},*/
     {  name: 'BIOSIMET', description:'Pagina Web de Geolocalizacion de CNET', image: this.imageCnet,linkPage:"",linkGit:"", skills: this.skillsCnet, about: this.aboutCnet},
-    {  name: 'IONIC POKEMON', description:'Pagina Web realizada en IONIC', image: this.imagePoke ,linkPage:"https://kendall2106.github.io/IonicPokemon/",linkGit:"https://github.com/Kendall2106/IonicPokemon.git", skills:this.skillsPoke, about: this.aboutCnet},
     {  name: 'Reportes de Averias', description:'Pagina Web de reportes de averias hecho para el ICE', image: this.imageRDA,linkPage:"",linkGit:"https://github.com/Kendall2106/ReporteDeAverias.git", skills: this.skillsRDA, about: this.aboutCnet},
     {  name: 'HOTEL COCOMILK CLIENTE', description:'Pagina Web cliente', image: this.imageCMC ,linkPage:"",linkGit:"", skills:this.skillsCMC, about: this.aboutCnet},
     {  name: 'HOTEL COCOMILK ADMINISTRADOR', description:'Pagina Web Administrador', image: this.imageCMA,linkPage:"",linkGit:"", skills: this.skillsCMA, about: this.aboutCnet},
+    {  name: 'IONIC POKEMON', description:'Pagina Web realizada en IONIC', image: this.imagePoke ,linkPage:"https://kendall2106.github.io/IonicPokemon/",linkGit:"https://github.com/Kendall2106/IonicPokemon.git", skills:this.skillsPoke, about: this.aboutCnet},
   ];
 
   constructor(private githubService: GithubService, private router: Router, private dataService: DataService){
