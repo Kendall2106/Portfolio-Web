@@ -39,29 +39,33 @@
         </div>
 
         <div class="row ">
-            <div class="col-lg-4 animate__animated animate__fadeInUp" *ngFor="let item of repos" style="margin-bottom: 3%;">
-                <div class="top">
-                    <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
-                    
-                </div>
-                
-                <div class="bottom" style="margin-top: 1%;">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="tittle">{{item.name}}</div>
+            <ng-container *ngFor="let item of repos"> 
+            
+                <div class="col-lg-4 animate__animated animate__fadeInUp" style="margin-bottom: 3%;" *ngIf="item.visible === 'True'">
+                    <div>
+                        <div class="top">
+                            <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
                         </div>
-                        <div class=" col-lg-4">
-                            
-                            <a (click)="navegarAComponenteDestino(item)">SEE MORE</a>
+                        
+                        <div class="bottom" style="margin-top: 1%;">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="tittle">{{item.name}}</div>
+                                </div>
+
+                            </div>
                         </div>
-                        <!--<div class="col-lg-3">
-                            <button><a [href]="item.linkGit" target="_blank"><i class="uil uil-external-link-alt"></i></a></button>
-                        </div>-->
-                    </div>
+                    </div> 
                 </div>
-        </div>
+
+            </ng-container>
+  
+ 
+               
+            
+            </div>
         </div>
    </div>
-</div>
+
 
 

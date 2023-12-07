@@ -6,6 +6,7 @@ export interface Repo {
   linkGit:String;
   skills: any[];
   about: any[];
+  visible: string;
 }
 
 export class Repo implements Repo {

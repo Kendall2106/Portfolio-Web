@@ -2,6 +2,8 @@
     padding: 1rem;
 }
 
+
+
 .tittle{
     font-size: 4rem;
 }
@@ -50,4 +52,18 @@
 }
 
 
+
+.etiqueta {
+    display: inline-block;
+    margin-top: 3%;
+    margin: 5px;
+    padding: 8px;
+    background-color: var(--color-1);
+    color: var(--color-text);
+    box-shadow: 0 0 29px #3c3c3c6b;
+    border-radius: 5px;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    text-decoration: none;
+}
 

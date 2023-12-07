@@ -1,28 +1,5 @@
-
-<!--<div class="d-flex flex-wrap">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-        <img style="width: 100%; height: 100%;" src="../../assets/img/{{repo?.image}}" alt="Descripción de la imagen">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-        <h1>{{repo?.name}}</h1>
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-        <h1>{{repo?.description}}</h1>
-    </div>
-</div>-->
-
 <div class="wrapper">
-    <div class="headerPrin" style=" margin-right: 10%; margin-left: 10%; margin-top: 3%; margin-bottom: none; border-style: solid; border-color: var(--color-text);">
-           <!-- <div class="title">
-                <h1>{{repo?.name}}</h1>
-            </div>
-            <div class="desc">
-                <p>{{repo?.description}}</p>
-            </div>
-            <div class="links">
-                <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button>
-                <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
-            </div>--> 
+    <div class="prin" style="margin-top: 3%; border-bottom: none;">
             
                 <div class="row">
                     <div class="part2 col-lg-12" style="text-align: right;">
@@ -41,11 +18,9 @@
                             <p>{{repo?.description}}</p>
                         </div>
                     </div>
-                </div>
-
-            
+                </div> 
     </div>
-    <div class="bodyPrin" style=" margin-right: 10%; margin-left: 10%; border-style: solid; border-color: var(--color-text);">
+    <div class="prin">
         <div class="text" style="margin: 8%;">
             <div class="about">
                 <h2>About</h2>
@@ -66,7 +41,7 @@
                             <figure><img src="./assets/img/{{imagenPrincipal}}" alt="#" /></figure>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-3" style="display: flex;" *ngFor="let r of repo?.image; let i=index;">
                                 <figure class="galeria" (click)="open(r)">
@@ -78,20 +53,6 @@
                     </div>
                 </div>
             </div>
-            
-
-           <!-- <div class="skills">
-                <h2>Tecnical Skills</h2>
-                <div>
-                    <ul class="row">
-                        <li class="col-lg-3" *ngFor="let skills of repo?.skills;">
-                          <div class="etiqueta">
-                            {{ skills }}
-                          </div>
-                        </li>
-                      </ul>
-                </div>
-            </div>-->
 
             <div class="skills">
                 <h2>Tecnical Skills</h2>
@@ -103,35 +64,4 @@
 
         </div>
     </div>
-
-        <!--  <div class="image col-12 col-sm-12 col-md-6 col-lg-12">
-            
-           <div *ngFor="let r of repo?.image">
-                <img style="width: 100%; height: 100%;" src="../../assets/img/{{r}}" alt="Descripción de la imagen">
-            </div>
-           
-        </div>
-        <br>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-6">
-                    <h1>{{repo?.name}}</h1>
-                </div>
-                <div class="col-12 col-sm-12 col-md-3 col-lg-6">
-                    <button><a [href]="repo?.linkPage" target="_blank"><i class="uil uil-external-link-alt"></i></a></button>
-                </div>  
-            </div>
-            
-        </div>
-        <br>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-            <h1>About this system</h1>
-            <h3>{{repo?.description}}</h3>
-        </div>
-        <br>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-            <h1>Skills</h1>
-            <h3>{{repo?.description}}</h3>
-        </div>-->
-
 </div>

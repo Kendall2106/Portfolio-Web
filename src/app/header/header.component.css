@@ -27,6 +27,12 @@
     }
 }
 
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+
 .item-number{
     color: var(--color-2);
     padding: 0.5rem;
