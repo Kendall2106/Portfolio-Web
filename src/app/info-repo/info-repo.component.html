@@ -22,12 +22,14 @@
                         <p>{{repo?.description}}</p>
                     </div>
                 </div>
-                <div class="part2 col-lg-6" style="text-align: right; margin-top: 1%;">
-                    <div *ngIf="repo?.linkPage != ''">
-                        <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button><br>
-                    </div>
-                    <div *ngIf="repo?.linkGit != ''">
-                        <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
+                <div class="part2 col-lg-5" style=" margin-top: 1%; margin-left: 1%;">
+                    <div class="row">
+                        <div class="col-lg-7" *ngIf="repo?.linkPage != ''">
+                            <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button><br>
+                        </div>
+                        <div class="col-lg-5" *ngIf="repo?.linkGit != ''">
+                            <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
+                        </div>
                     </div>
                 </div>
             </div> 
@@ -53,7 +55,7 @@
 
             <div class="gallery">
                 <h3>Gallery</h3>
-                        <div class="col-lg-12" style="background-color: blueviolet;" *ngFor="let r of repo?.image; let i=index;">
+                        <div class="col-lg-12" style="margin-bottom: 1%;" *ngFor="let r of repo?.image; let i=index;">
                             <img src="./assets/img/{{r}}" alt="Descripción de la imagen" />
                         </div>
             

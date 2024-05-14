@@ -34,28 +34,7 @@
     margin-top: 5%;
 }
 
-.links{
-    .block{
-        height: 8rem;
-        padding: .15rem;
-        display: block;
-        
-        .block-in{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            font-size: 2rem;
-            background: #ffffff0a;
-            
-        }
-    }
-    .block:hover{
-         opacity: 30%;
-    }
-}
+
 
 
 
@@ -73,3 +52,11 @@
     text-decoration: none;
 }
 
+
+.link{
+    text-decoration:none;
+}
+
+.link:hover {
+    text-decoration:underline;
+}
