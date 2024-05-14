@@ -60,3 +60,8 @@
 .link:hover {
     text-decoration:underline;
 }
+
+.linkContact{
+    text-decoration: underline;
+    cursor: pointer;
+}

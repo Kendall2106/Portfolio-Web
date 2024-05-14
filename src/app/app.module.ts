@@ -8,6 +8,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { WorkplaceComponent } from './workplace/workplace.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InfoRepoComponent } from './info-repo/info-repo.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -17,12 +19,14 @@ import { InfoRepoComponent } from './info-repo/info-repo.component';
     HeaderComponent,
     SidebarComponent,
     WorkplaceComponent,
-    InfoRepoComponent
+    InfoRepoComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   
   providers: [

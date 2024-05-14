@@ -1,0 +1,54 @@
+<div>
+    <a href="./"><i class="uil uil-arrow-left" style="font-size: 50px;"></i></a>
+</div>
+
+<div class="wrapper">
+
+    <div class="prin">
+        <hr>
+        <div class="text ">
+            <h3>Contact</h3>
+            <p  class="desc">
+                With experience and knowledge gained through participation in various academic projects. 
+            </p>
+        </div>
+
+        <hr>
+        <div class="text">
+
+            <div class="row">
+                <div class=" col-4 col-lg-4">
+                    <h4>GET IN TOUCH</h4>
+                </div>
+                <div class=" col-8 col-lg-8">
+                    <form (ngSubmit)="sendEmail(); email = ''; mensaje = '';">
+                        <div>
+                          <input type="text" id="email" name="email" [(ngModel)]="email" placeholder="Email address">
+                        </div>
+                        <div>
+                          <textarea id="message" name="message" rows="10" placeholder="Your Message" [(ngModel)]="mensaje"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                      </form>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+        <div class="text">
+            
+            <div class="row">
+                <div class=" col-8 col-lg-4">
+                    <h4>Kendall Brown</h4>
+                </div>
+                <div class=" col-8 col-lg-8" style="text-align: end;">
+                    <h3><i class="uil uil-linkedin"></i> <i class="uil uil-github"></i></h3>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+

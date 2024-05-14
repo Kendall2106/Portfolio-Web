@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import Typewriter from 't-writer.js'
 
 @Component({
@@ -11,7 +12,7 @@ export class SidebarComponent implements OnInit, AfterViewInit{
 @ViewChild('asTitle') asTitle: ElementRef | undefined;
 
   
-constructor(){}
+constructor(private router: Router){}
 
   
 ngOnInit(): void {
@@ -33,6 +34,10 @@ ngOnInit(): void {
       .type('Kendall Brown')
       .rest(40000)
       .start();
+  }
+
+  navegarAComponenteDestino() {
+    this.router.navigate(['/contact']);
   }
 
 
