@@ -1,29 +1,40 @@
+<div>
+    <a href="./"><i class="uil uil-arrow-left" style="font-size: 50px;"></i></a>
+</div>
+
 <div class="wrapper">
-    <div class="prin" style="margin-top: 3%; border-bottom: none;">
-            
-                <div class="row">
-                    <div class="part2 col-lg-12" style="text-align: right;">
-                        <div *ngIf="repo?.linkPage != ''">
-                            <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button><br>
-                        </div>
-                        <div *ngIf="repo?.linkGit != ''">
-                            <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
-                        </div>
-                    </div>
-                    <div class="part1 col-lg-12" >
-                        <div class="title">
-                            <h1>{{repo?.name}}</h1>
-                        </div>
-                        <div class="desc">
-                            <p>{{repo?.description}}</p>
-                        </div>
-                    </div>
-                </div> 
-    </div>
+
+
+
+
+    
     <div class="prin">
-        <div class="text" style="margin: 8%;">
+        <div class="header" style=" border-bottom: none; ">
+            
+            <div class="row">
+                <div class="part1 col-lg-12" >
+                    <div class="title">
+                        <h1>{{repo?.name}}</h1>
+                    </div>
+                </div>
+                <div class="part1 col-lg-6" >
+                    <div class="desc">
+                        <p>{{repo?.description}}</p>
+                    </div>
+                </div>
+                <div class="part2 col-lg-6" style="text-align: right; margin-top: 1%;">
+                    <div *ngIf="repo?.linkPage != ''">
+                        <button><a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a></button><br>
+                    </div>
+                    <div *ngIf="repo?.linkGit != ''">
+                        <button><a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i> </a></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="text">
             <div class="about">
-                <h2>About</h2>
+                <h3>About</h3>
                 <div>
                     <ul>
                         <li *ngFor="let about of repo?.about;">
@@ -32,35 +43,21 @@
                       </ul>
                 </div>
             </div>
-            
-            <div class="gallery">
-                <h2>Gallery</h2>
-                <div class="row ml-0 mr-2">
-                    <div class="col-md-12">
-                        <div class="about_img">
-                            <figure><img src="./assets/img/{{imagenPrincipal}}" alt="#" /></figure>
-                        </div>
-                    </div>
-                     <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-3" style="display: flex;" *ngFor="let r of repo?.image; let i=index;">
-                                <figure class="galeria" (click)="open(r)">
-                                    <img src="./assets/img/{{r}}" alt="Descripción de la imagen" />
-                                </figure>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="skills">
-                <h2>Tecnical Skills</h2>
+                <h3>Tecnical Skills</h3>
                 <div class="skills-container">
                     <div *ngFor="let skills of repo?.skills;" class="etiqueta">{{skills}}</div>
                 </div>
             </div>
 
+            <div class="gallery">
+                <h3>Gallery</h3>
+                        <div class="col-lg-12" style="background-color: blueviolet;" *ngFor="let r of repo?.image; let i=index;">
+                            <img src="./assets/img/{{r}}" alt="Descripción de la imagen" />
+                        </div>
+            
+            </div>
 
         </div>
     </div>

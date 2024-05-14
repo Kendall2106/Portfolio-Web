@@ -1,8 +1,14 @@
 .wrapper{
     padding: 1rem;
+
 }
 
-
+.body{
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 3%;
+  
+}
 
 .tittle{
     font-size: 4rem;
