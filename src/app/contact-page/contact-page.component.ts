@@ -21,7 +21,7 @@ export class ContactPageComponent {
         error => alert('Error al enviar correo electrónico')
       
       );
-
+    test
       ;
   }*/
 
