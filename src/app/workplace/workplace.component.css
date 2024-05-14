@@ -5,7 +5,9 @@
 
 .tittle{
     font-size: 1rem;
-    
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta cualquier texto que desborde del contenedor */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) al final del texto */
 }
 
 a{
@@ -22,6 +24,7 @@ a:hover {
 
 img{
     filter: grayscale(100%);
+    border-radius: 10px;
 }
 
 img:hover {

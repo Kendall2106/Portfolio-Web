@@ -11,12 +11,18 @@
 }
 
 
+
 .prin{
     margin-right: 3%; 
     margin-left: 6%;
     margin-bottom: 3%;
     margin-bottom: none; 
 }
+
+.wrapper::-webkit-scrollbar {
+    width: 0; /* Oculta la barra de desplazamiento vertical en navegadores webkit */
+}
+
 
 
 .gallery, .skills, .about{
@@ -76,6 +82,7 @@ a{
 img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
