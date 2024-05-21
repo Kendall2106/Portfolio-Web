@@ -6,11 +6,9 @@
 
 .wrapper {
     max-height: calc(92vh - 60px); /* Ajusta el valor según tus necesidades */
-    overflow-y: auto;
+   /* overflow-y: auto;*/
    
 }
-
-
 
 .prin{
     margin-right: 3%; 

@@ -1,6 +1,6 @@
 .container {
     max-height: calc(100vh - 60px); /* Ajusta el valor según tus necesidades */
-    overflow-y: auto;
+    /*overflow-y: auto;*/
 }
 
 .tittle{
