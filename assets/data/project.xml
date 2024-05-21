@@ -91,7 +91,7 @@
       <ab>Utilization of the RUP methodology.</ab>
     </about>
     <linkPage></linkPage>
-    <linkGit></linkGit>
+    <linkGit>https://github.com/YarethLeal/ModuloCliente-HotelCocoMilk.git</linkGit>
     <visible>True</visible>
   </repo>
 
@@ -123,7 +123,7 @@
       <ab>Utilization of the RUP methodology.</ab>
     </about>
     <linkPage></linkPage>
-    <linkGit></linkGit>
+    <linkGit>https://github.com/YarethLeal/ModuloAdmin-HotelCocoMilk.git</linkGit>
     <visible>True</visible>
   </repo>
 
@@ -151,25 +151,33 @@
     </about>
     <linkPage>https://kendall2106.github.io/IonicPokemon/</linkPage>
     <linkGit>https://github.com/Kendall2106/IonicPokemon.git</linkGit>
-    <visible>True</visible>
+    <visible>False</visible>
   </repo>
 
   <repo>
     <id>6</id>
     <name>DATA</name>
-    <description>System based on IONIC that leverages a free Pokémon API to efficiently manage related data.</description>
+    <description>Personal Project: Multimedia resource management application. Developed using Angular and Firebase.</description>
     <image> 
         <img>/data/D0.jpg</img>
+        <img>/data/D1.png</img>
+        <img>/data/D2.png</img>
+        <img>/data/D3.png</img>
     </image>
     <skills>
       <skill>ANGULAR</skill>
       <skill>HTML5 </skill>
       <skill>CSS</skill>
       <skill>JavaScript</skill>
+      <skill>Firebase</skill>
+      <skill>API Jikan</skill>
     </skills>
     <about>
       <ab>Development of web applications using Front-End technologies like Angular.</ab>
+      <ab>Data stored in Firebase databases</ab>
+      <ab>Using the Jikan API to Manipulate Anime-Related Data</ab>
       <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+
     </about>
     <linkPage>https://kendall2106.github.io/DATA/#/</linkPage>
     <linkGit>https://github.com/Kendall2106/DATA.git</linkGit>
@@ -177,4 +185,569 @@
   </repo>
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<repo>
+    <id>1</id>
+    <name>BIOSIMET / CNET</name>
+    <description>A web browser-based access system that allows company administrators to review clock in/out records, attendance reports, 
+    work schedules, geolocation marks, and a list of collaborators.</description>
+    <image> 
+        <img>/cnet/cnet0.png</img>
+        <img>/cnet/cnet1.png</img>
+        <img>/cnet/cnet2.png</img>
+        <img>/cnet/cnet3.png</img>
+    </image>
+    <skills>
+      <skill>.NET Framework</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>API HERE</skill>
+      <skill>MYSQL</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web solutions in .NET Framework, covering both the Back End and Front End through MVC architectures.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Integration and utilization of the Here API to optimize functionalities and enhance user experience in interactive map usage.</ab>
+      <ab>Management and maintenance of the MySQL database, ensuring data integrity and efficiency.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit></linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>2</id>
+    <name>Reporte de Averías / OIJ</name>
+    <description>Specialized system for efficient management of breakdown reports within a company, 
+    adapted for different user roles. This system enables work teams to generate, administer, and track reports in a personalized manner.</description>
+    <image> 
+        <img>/rda/RDA0.png</img>
+        <img>/rda/RDA1.png</img>
+        <img>/rda/RDA2.png</img>
+        <img>/rda/RDA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>SQL</skill>
+      <skill>SCRUM</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Maintenance and management of a database through SQL queries.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript to ensure a user-friendly interface.</ab>
+      <ab>Gathering requirements from clients to understand their needs and specifications.</ab>
+      <ab>Analysis of requirements and design of the solution to meet client needs.</ab>
+      <ab>Worked using the Scrum methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/UCR-ReporteAverias-OIJ-IF6100.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+<repo>
+    <id>3</id>
+    <name>HOTEL COCOMILK CLIENTE</name>
+    <description>Customized room reservation system for hotels, making it easy for customers to efficiently book rooms.</description>
+    <image> 
+        <img>/cocoMilkC/CM0.png</img>
+        <img>/cocoMilkC/CM1.png</img>
+        <img>/cocoMilkC/CM2.png</img>
+        <img>/cocoMilkC/CM3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloCliente-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>4</id>
+    <name>HOTEL COCOMILK ADMINISTRADOR</name>
+    <description>Comprehensive system for hotel management, covering room management, reservations, customers, advertising, and more. This solution provides efficient and centralized control, enabling smooth operation.</description>
+    <image> 
+        <img>/cocoMilkA/cmA0.png</img>
+        <img>/cocoMilkA/cmA1.png</img>
+        <img>/cocoMilkA/cmA2.png</img>
+        <img>/cocoMilkA/cmA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Implementation of a Security module using .Net Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloAdmin-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>5</id>
+    <name>POKEDEX - IONIC</name>
+    <description>System based on IONIC that leverages a free Pokémon API to efficiently manage related data.</description>
+    <image> 
+        <img>/pokemon/poke0.jpg</img>
+        <img>/pokemon/poke1.jpg</img>
+        <img>/pokemon/poke2.jpg</img>
+        <img>/pokemon/poke3.jpg</img>
+    </image>
+    <skills>
+      <skill>IONIC</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>API POKEMON</skill>
+    </skills>
+    <about>
+      <ab>Front-end development using a mobile-centric approach with the IONIC framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+    </about>
+    <linkPage>https://kendall2106.github.io/IonicPokemon/</linkPage>
+    <linkGit>https://github.com/Kendall2106/IonicPokemon.git</linkGit>
+    <visible>False</visible>
+  </repo>
+
+  <repo>
+    <id>6</id>
+    <name>DATA</name>
+    <description>Personal Project: Multimedia resource management application. Developed using Angular and Firebase.</description>
+    <image> 
+        <img>/data/D0.jpg</img>
+        <img>/data/D1.png</img>
+        <img>/data/D2.png</img>
+        <img>/data/D3.png</img>
+    </image>
+    <skills>
+      <skill>ANGULAR</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>Firebase</skill>
+      <skill>API Jikan</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular.</ab>
+      <ab>Data stored in Firebase databases</ab>
+      <ab>Using the Jikan API to Manipulate Anime-Related Data</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+
+    </about>
+    <linkPage>https://kendall2106.github.io/DATA/#/</linkPage>
+    <linkGit>https://github.com/Kendall2106/DATA.git</linkGit>
+    <visible>True</visible>
+  </repo>
+  <repo>
+    <id>1</id>
+    <name>BIOSIMET / CNET</name>
+    <description>A web browser-based access system that allows company administrators to review clock in/out records, attendance reports, 
+    work schedules, geolocation marks, and a list of collaborators.</description>
+    <image> 
+        <img>/cnet/cnet0.png</img>
+        <img>/cnet/cnet1.png</img>
+        <img>/cnet/cnet2.png</img>
+        <img>/cnet/cnet3.png</img>
+    </image>
+    <skills>
+      <skill>.NET Framework</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>API HERE</skill>
+      <skill>MYSQL</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web solutions in .NET Framework, covering both the Back End and Front End through MVC architectures.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Integration and utilization of the Here API to optimize functionalities and enhance user experience in interactive map usage.</ab>
+      <ab>Management and maintenance of the MySQL database, ensuring data integrity and efficiency.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit></linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>2</id>
+    <name>Reporte de Averías / OIJ</name>
+    <description>Specialized system for efficient management of breakdown reports within a company, 
+    adapted for different user roles. This system enables work teams to generate, administer, and track reports in a personalized manner.</description>
+    <image> 
+        <img>/rda/RDA0.png</img>
+        <img>/rda/RDA1.png</img>
+        <img>/rda/RDA2.png</img>
+        <img>/rda/RDA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>SQL</skill>
+      <skill>SCRUM</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Maintenance and management of a database through SQL queries.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript to ensure a user-friendly interface.</ab>
+      <ab>Gathering requirements from clients to understand their needs and specifications.</ab>
+      <ab>Analysis of requirements and design of the solution to meet client needs.</ab>
+      <ab>Worked using the Scrum methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/UCR-ReporteAverias-OIJ-IF6100.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+<repo>
+    <id>3</id>
+    <name>HOTEL COCOMILK CLIENTE</name>
+    <description>Customized room reservation system for hotels, making it easy for customers to efficiently book rooms.</description>
+    <image> 
+        <img>/cocoMilkC/CM0.png</img>
+        <img>/cocoMilkC/CM1.png</img>
+        <img>/cocoMilkC/CM2.png</img>
+        <img>/cocoMilkC/CM3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloCliente-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>4</id>
+    <name>HOTEL COCOMILK ADMINISTRADOR</name>
+    <description>Comprehensive system for hotel management, covering room management, reservations, customers, advertising, and more. This solution provides efficient and centralized control, enabling smooth operation.</description>
+    <image> 
+        <img>/cocoMilkA/cmA0.png</img>
+        <img>/cocoMilkA/cmA1.png</img>
+        <img>/cocoMilkA/cmA2.png</img>
+        <img>/cocoMilkA/cmA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Implementation of a Security module using .Net Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloAdmin-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>5</id>
+    <name>POKEDEX - IONIC</name>
+    <description>System based on IONIC that leverages a free Pokémon API to efficiently manage related data.</description>
+    <image> 
+        <img>/pokemon/poke0.jpg</img>
+        <img>/pokemon/poke1.jpg</img>
+        <img>/pokemon/poke2.jpg</img>
+        <img>/pokemon/poke3.jpg</img>
+    </image>
+    <skills>
+      <skill>IONIC</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>API POKEMON</skill>
+    </skills>
+    <about>
+      <ab>Front-end development using a mobile-centric approach with the IONIC framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+    </about>
+    <linkPage>https://kendall2106.github.io/IonicPokemon/</linkPage>
+    <linkGit>https://github.com/Kendall2106/IonicPokemon.git</linkGit>
+    <visible>False</visible>
+  </repo>
+
+  <repo>
+    <id>6</id>
+    <name>DATA</name>
+    <description>Personal Project: Multimedia resource management application. Developed using Angular and Firebase.</description>
+    <image> 
+        <img>/data/D0.jpg</img>
+        <img>/data/D1.png</img>
+        <img>/data/D2.png</img>
+        <img>/data/D3.png</img>
+    </image>
+    <skills>
+      <skill>ANGULAR</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>Firebase</skill>
+      <skill>API Jikan</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular.</ab>
+      <ab>Data stored in Firebase databases</ab>
+      <ab>Using the Jikan API to Manipulate Anime-Related Data</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+
+    </about>
+    <linkPage>https://kendall2106.github.io/DATA/#/</linkPage>
+    <linkGit>https://github.com/Kendall2106/DATA.git</linkGit>
+    <visible>True</visible>
+  </repo>
+  <repo>
+    <id>1</id>
+    <name>BIOSIMET / CNET</name>
+    <description>A web browser-based access system that allows company administrators to review clock in/out records, attendance reports, 
+    work schedules, geolocation marks, and a list of collaborators.</description>
+    <image> 
+        <img>/cnet/cnet0.png</img>
+        <img>/cnet/cnet1.png</img>
+        <img>/cnet/cnet2.png</img>
+        <img>/cnet/cnet3.png</img>
+    </image>
+    <skills>
+      <skill>.NET Framework</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>API HERE</skill>
+      <skill>MYSQL</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web solutions in .NET Framework, covering both the Back End and Front End through MVC architectures.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Integration and utilization of the Here API to optimize functionalities and enhance user experience in interactive map usage.</ab>
+      <ab>Management and maintenance of the MySQL database, ensuring data integrity and efficiency.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit></linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>2</id>
+    <name>Reporte de Averías / OIJ</name>
+    <description>Specialized system for efficient management of breakdown reports within a company, 
+    adapted for different user roles. This system enables work teams to generate, administer, and track reports in a personalized manner.</description>
+    <image> 
+        <img>/rda/RDA0.png</img>
+        <img>/rda/RDA1.png</img>
+        <img>/rda/RDA2.png</img>
+        <img>/rda/RDA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>SQL</skill>
+      <skill>SCRUM</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Maintenance and management of a database through SQL queries.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript to ensure a user-friendly interface.</ab>
+      <ab>Gathering requirements from clients to understand their needs and specifications.</ab>
+      <ab>Analysis of requirements and design of the solution to meet client needs.</ab>
+      <ab>Worked using the Scrum methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/UCR-ReporteAverias-OIJ-IF6100.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+<repo>
+    <id>3</id>
+    <name>HOTEL COCOMILK CLIENTE</name>
+    <description>Customized room reservation system for hotels, making it easy for customers to efficiently book rooms.</description>
+    <image> 
+        <img>/cocoMilkC/CM0.png</img>
+        <img>/cocoMilkC/CM1.png</img>
+        <img>/cocoMilkC/CM2.png</img>
+        <img>/cocoMilkC/CM3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies such as Angular and Back-End technologies like .NET Framework.Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloCliente-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>4</id>
+    <name>HOTEL COCOMILK ADMINISTRADOR</name>
+    <description>Comprehensive system for hotel management, covering room management, reservations, customers, advertising, and more. This solution provides efficient and centralized control, enabling smooth operation.</description>
+    <image> 
+        <img>/cocoMilkA/cmA0.png</img>
+        <img>/cocoMilkA/cmA1.png</img>
+        <img>/cocoMilkA/cmA2.png</img>
+        <img>/cocoMilkA/cmA3.png</img>
+    </image>
+    <skills>
+      <skill>Angular</skill>
+      <skill>.NET Framework</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>POSTGRESQL</skill>
+      <skill>RUP</skill>
+      <skill>Entity Framework</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular and Back-End technologies like .NET Framework.</ab>
+      <ab>Implementation of a Security module using .Net Framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+      <ab>Maintenance and management of a database through PostgreSQL.</ab>
+      <ab>Utilization of the RUP methodology.</ab>
+    </about>
+    <linkPage></linkPage>
+    <linkGit>https://github.com/YarethLeal/ModuloAdmin-HotelCocoMilk.git</linkGit>
+    <visible>True</visible>
+  </repo>
+
+  <repo>
+    <id>5</id>
+    <name>POKEDEX - IONIC</name>
+    <description>System based on IONIC that leverages a free Pokémon API to efficiently manage related data.</description>
+    <image> 
+        <img>/pokemon/poke0.jpg</img>
+        <img>/pokemon/poke1.jpg</img>
+        <img>/pokemon/poke2.jpg</img>
+        <img>/pokemon/poke3.jpg</img>
+    </image>
+    <skills>
+      <skill>IONIC</skill>
+      <skill>C#</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>API POKEMON</skill>
+    </skills>
+    <about>
+      <ab>Front-end development using a mobile-centric approach with the IONIC framework.</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+    </about>
+    <linkPage>https://kendall2106.github.io/IonicPokemon/</linkPage>
+    <linkGit>https://github.com/Kendall2106/IonicPokemon.git</linkGit>
+    <visible>False</visible>
+  </repo>
+
+  <repo>
+    <id>6</id>
+    <name>DATA</name>
+    <description>Personal Project: Multimedia resource management application. Developed using Angular and Firebase.</description>
+    <image> 
+        <img>/data/D0.jpg</img>
+        <img>/data/D1.png</img>
+        <img>/data/D2.png</img>
+        <img>/data/D3.png</img>
+    </image>
+    <skills>
+      <skill>ANGULAR</skill>
+      <skill>HTML5 </skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>Firebase</skill>
+      <skill>API Jikan</skill>
+    </skills>
+    <about>
+      <ab>Development of web applications using Front-End technologies like Angular.</ab>
+      <ab>Data stored in Firebase databases</ab>
+      <ab>Using the Jikan API to Manipulate Anime-Related Data</ab>
+      <ab>Page layout using HTML5, CSS, and JavaScript.</ab>
+
+    </about>
+    <linkPage>https://kendall2106.github.io/DATA/#/</linkPage>
+    <linkGit>https://github.com/Kendall2106/DATA.git</linkGit>
+    <visible>True</visible>
+  </repo>
 </repos>
