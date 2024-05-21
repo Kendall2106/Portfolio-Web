@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { DataService } from './core/service/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portafolio-web';
+
+   public dataService: DataService;
+
+  constructor(private ds: DataService) {
+    this.dataService = ds;
+   }
+
+
 }

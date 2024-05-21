@@ -1,6 +1,6 @@
 .wrapper {
     max-height: calc(92vh - 60px); /* Ajusta el valor según tus necesidades */
-    overflow-y: auto;
+    /*overflow-y: auto;*/
    
 }
 
@@ -16,7 +16,7 @@
 }
 
 .text{
-    margin-bottom: 15%;
+    margin-bottom: 5%;
 }
 
 .desc{

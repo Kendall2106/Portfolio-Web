@@ -1,0 +1,13 @@
+/*.content{
+    max-height: calc(100vh - 60px); 
+    overflow-y: auto;
+}*/
+
+
+
+@media (max-width:700px) {
+    .sidebar.hidden-on-mobile {
+        display: none;
+      }
+    
+}

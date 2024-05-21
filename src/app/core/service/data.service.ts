@@ -8,6 +8,7 @@ import { Observable, map } from 'rxjs';
 })
 export class DataService {
   repoData: any;
+  navigatedToComponente1: boolean = false;
 
   private xmlUrl = 'assets/data/project.xml'; // Ruta al archivo XML, ajusta según tu estructura de carpetas
 

@@ -15,7 +15,7 @@
         <div class="row ">
             <ng-container *ngFor="let item of repos"> 
             
-                <div class="col-lg-4 animate__animated animate__fadeInUp" style="margin-bottom: 3%;" *ngIf="item.visible === 'True'">
+                <div class="card col-lg-4 animate__animated animate__fadeInUp"  *ngIf="item.visible === 'True'">
                     <div>
                         <div class="top">
                             <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">

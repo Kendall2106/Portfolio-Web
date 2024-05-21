@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Repo } from '../core/model/repo.model';
 import { DataService } from '../core/service/data.service';
 import { Router } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-info-repo',
@@ -20,7 +21,7 @@ export class InfoRepoComponent implements OnInit{
   repo: Repo | undefined;
 
   
-  constructor(private route: ActivatedRoute, public dataService: DataService, private router: Router) {
+  constructor(private viewportScroller: ViewportScroller, private route: ActivatedRoute, public dataService: DataService, private router: Router) {
     this.repo = dataService.repoData;
     this.images = this.repo?.image;
     this.imagenPrincipal = "";
@@ -28,6 +29,8 @@ export class InfoRepoComponent implements OnInit{
    }
 
   ngOnInit() {
+    this.viewportScroller.scrollToPosition([0, 0]);
+
     if (!this.dataService.repoData) {
       this.router.navigate(['/']);
     }

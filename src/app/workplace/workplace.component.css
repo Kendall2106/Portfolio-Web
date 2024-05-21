@@ -30,3 +30,18 @@ img{
 img:hover {
     filter: none;
 }
+
+.card {
+    margin-bottom: 3%;
+    background-color: transparent;
+    border: none;
+}
+
+
+@media (max-width:700px) {
+    .card{
+       text-align: center;
+    }
+}
+
+
