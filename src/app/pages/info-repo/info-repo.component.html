@@ -4,53 +4,54 @@
 
 <div class="wrapper">
 
-
-
-
-    
     <div class="prin">
         <div class="header" style=" border-bottom: none; ">
-            
+
             <div class="row">
-                <div class="part1 col-lg-12" >
+                <div class="part1 col-lg-12">
                     <div class="title">
                         <h1>{{repo?.name}}</h1>
                     </div>
                 </div>
-               
-                <div class="part1" [ngClass]="{'col-lg-12': !repo?.linkPage && !repo?.linkGit, 'col-lg-6': repo?.linkPage || repo?.linkGit}">
+
+                <div class="part1"
+                    [ngClass]="{'col-lg-12': !repo?.linkPage && !repo?.linkGit, 'col-lg-6': repo?.linkPage || repo?.linkGit}">
                     <div class="desc">
                         <p>{{repo?.description}}</p>
                     </div>
                 </div>
-                <div class="part2 col-lg-5" *ngIf="repo?.linkPage || repo?.linkGit" style="margin-top: 1%; margin-left: 1%;">
+
+                <div class="part2 col-lg-5" *ngIf="repo?.linkPage || repo?.linkGit"
+                    style="margin-top: 1%; margin-left: 1%;">
                     <div class="row">
                         <div *ngIf="repo?.linkPage && repo?.linkGit" class="col-lg-7">
                             <button>
-                                <a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a>
+                                <a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i
+                                        class="uil uil-external-link-alt"></i></a>
                             </button>
                         </div>
                         <div *ngIf="repo?.linkPage && repo?.linkGit" class="col-lg-5">
                             <button>
-                                <a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i></a>
+                                <a [href]="repo?.linkGit" target="_blank">REPOSITORY <i
+                                        class="uil uil-github-alt"></i></a>
                             </button>
                         </div>
                         <div *ngIf="!repo?.linkPage && repo?.linkGit" class="col-lg-12" style="text-align: end;">
                             <button>
-                                <a [href]="repo?.linkGit" target="_blank">REPOSITORY <i class="uil uil-github-alt"></i></a>
+                                <a [href]="repo?.linkGit" target="_blank">REPOSITORY <i
+                                        class="uil uil-github-alt"></i></a>
                             </button>
                         </div>
-                        <div *ngIf="repo?.linkPage && !repo?.linkGit" class="col-lg-12"  style="text-align: end;">
+                        <div *ngIf="repo?.linkPage && !repo?.linkGit" class="col-lg-12" style="text-align: end;">
                             <button>
-                                <a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i class="uil uil-external-link-alt"></i></a>
+                                <a [href]="repo?.linkPage" target="_blank">VISIT THE WEBSITE <i
+                                        class="uil uil-external-link-alt"></i></a>
                             </button>
                         </div>
                     </div>
                 </div>
 
-
-
-            </div> 
+            </div>
         </div>
         <div class="text">
             <div class="about">
@@ -58,36 +59,32 @@
                 <div>
                     <ul>
                         <li *ngFor="let about of repo?.about;">
-                          <p>{{ about }}</p>
+                            <p>{{ about }}</p>
                         </li>
-                      </ul>
+                    </ul>
                 </div>
             </div>
 
             <div class="skills">
                 <h3>Tecnical Skills</h3>
                 <div class="skills-container">
-                    <div *ngFor="let skills of repo?.skills;" class="etiqueta">{{skills}}</div>
+                    <div *ngFor="let skills of repo?.skills;" class="tag">{{skills}}</div>
                 </div>
             </div>
 
             <div class="gallery">
                 <h3>Gallery</h3>
-                        <div class=" imagen col-lg-12" *ngFor="let r of repo?.image; let i=index;">
-                            <img src="./assets/img/{{r}}" alt="Descripción de la imagen" />
-                        </div>
-            
+                <div class=" image col-lg-12" *ngFor="let r of repo?.image; let i=index;">
+                    <img src="./assets/img/{{r}}" alt="Descripción de la imagen" />
+                </div>
             </div>
-
         </div>
     </div>
 
     <div class="back">
         <a href="./">
-            <i class="uil uil-arrow-left" ></i> 
-            Volver
+            <i class="uil uil-arrow-left"></i>
+            Back
         </a>
-        
-
     </div>
 </div>

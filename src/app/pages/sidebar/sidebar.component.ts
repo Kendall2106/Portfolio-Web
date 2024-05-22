@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataService } from 'src/app/core/service/data.service';
 import Typewriter from 't-writer.js'
 
 @Component({
@@ -8,16 +9,11 @@ import Typewriter from 't-writer.js'
   styleUrls: ['./sidebar.component.css']
 })
 
-export class SidebarComponent implements OnInit, AfterViewInit{
-@ViewChild('asTitle') asTitle: ElementRef | undefined;
+export class SidebarComponent implements AfterViewInit {
+  @ViewChild('asTitle') asTitle: ElementRef | undefined;
 
-  
-constructor(private router: Router){}
 
-  
-ngOnInit(): void {
-    
-  }
+  constructor(private dataService: DataService, private router: Router) { }
 
   ngAfterViewInit(): void {
     this.initEfect();
@@ -29,7 +25,7 @@ ngOnInit(): void {
       loop: true,
       typeColor: 'black'
     })
-    
+
     writer
       .type('Kendall Brown')
       .rest(40000)
@@ -37,9 +33,8 @@ ngOnInit(): void {
   }
 
   navegarAComponenteDestino() {
+    this.dataService.navigatedToComponente1 = true;
     this.router.navigate(['/contact']);
   }
-
-
 
 }

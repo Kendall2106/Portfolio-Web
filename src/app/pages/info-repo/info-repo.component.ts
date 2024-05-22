@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Repo } from '../core/model/repo.model';
-import { DataService } from '../core/service/data.service';
+import { Repo } from '../../core/model/repo.model';
+import { DataService } from '../../core/service/data.service';
 import { Router } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 
@@ -11,22 +11,15 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./info-repo.component.css']
 })
 
-
-
-export class InfoRepoComponent implements OnInit{
- // @Input() repo: Repo | undefined;
+export class InfoRepoComponent implements OnInit {
 
   images: any[] | undefined;
-  public imagenPrincipal: string;
   repo: Repo | undefined;
 
-  
-  constructor(private viewportScroller: ViewportScroller, private route: ActivatedRoute, public dataService: DataService, private router: Router) {
+  constructor(private viewportScroller: ViewportScroller, public dataService: DataService, private router: Router) {
     this.repo = dataService.repoData;
     this.images = this.repo?.image;
-    this.imagenPrincipal = "";
-
-   }
+  }
 
   ngOnInit() {
     this.viewportScroller.scrollToPosition([0, 0]);
@@ -34,17 +27,6 @@ export class InfoRepoComponent implements OnInit{
     if (!this.dataService.repoData) {
       this.router.navigate(['/']);
     }
-
-    this.mostrarGaleria();
-  }
-
-  mostrarGaleria(){
-      this.imagenPrincipal=this.repo?.image[0];
-  }
-
-
-  open(imagen:string) {
-    this.imagenPrincipal = imagen;
   }
 
 }

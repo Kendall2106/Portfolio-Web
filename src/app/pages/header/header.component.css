@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    align-content: center;
+    height: 3.5rem;
+    box-shadow: 0 0 29px #3c3c3c6b;
+    border-bottom: solid 1px #000000;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+.wrapper{
+    padding: 1rem;
+}
+
+.body{
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.tittle{
+    font-size: 4rem;
+}
+
+.sub-tittle{
+    padding: 0.5rem 0;
+}
+
+.pre-tittle{
+    font-family: 'Hedvig Letters Serif', serif;
+    padding: 0.5rem 0;
+    color: var(--color-text);
+}
+
+.desc{
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: .2px;
+    color: var(--color-text);
+    margin-top: 5%;
+}
+
+.link{
+    text-decoration:none;
+}
+
+.link:hover {
+    text-decoration:underline;
+}
+
+.linkContact{
+    text-decoration: underline;
+    cursor: pointer;
+}

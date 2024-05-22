@@ -1,8 +1,6 @@
-
-
 <div class="container">
-   <div class="body" style=" margin: 1%; margin-top: 3%;">
-        
+    <div class="body" style=" margin: 1%; margin-top: 3%;">
+
         <div class="header">
             <div class="mainTittle" style="margin-bottom: 2%;">
                 <h1>Web Developer Portfolio</h1>
@@ -13,14 +11,15 @@
         </div>
 
         <div class="row ">
-            <ng-container *ngFor="let item of repos"> 
-            
-                <div class="card col-lg-4 animate__animated animate__fadeInUp"  *ngIf="item.visible === 'True'">
+
+            <ng-container *ngFor="let item of repos">
+                <div class="card col-lg-4 animate__animated animate__fadeInUp" *ngIf="item.visible === 'True'">
                     <div>
                         <div class="top">
-                            <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;" src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
+                            <img (click)="navegarAComponenteDestino(item)" style="width: 90%; height: 180px;"
+                                src="./assets/img/{{item.image[0]}}" alt="Descripción de la imagen">
                         </div>
-                        
+
                         <div class="bottom" style="margin-top: 1%;">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -29,17 +28,10 @@
 
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
-
             </ng-container>
-  
- 
-               
-            
-            </div>
+
         </div>
-   </div>
-
-
-
+    </div>
+</div>

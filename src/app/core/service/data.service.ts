@@ -10,43 +10,10 @@ export class DataService {
   repoData: any;
   navigatedToComponente1: boolean = false;
 
-  private xmlUrl = 'assets/data/project.xml'; // Ruta al archivo XML, ajusta según tu estructura de carpetas
+  private xmlUrl = 'assets/data/project.xml'; 
 
   constructor(private http: HttpClient) {}
 
-  /*(): Observable<any[]> {
-    return this.http.get(this.xmlUrl, { responseType: 'text' }).pipe(
-      map((xmlString: string) => {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
-        const object = xmlDoc.querySelectorAll('repo');
-
-        return Array.from(object).map(obj => {
-          const id = obj.querySelector('id');
-          const name = obj.querySelector('name');
-          const description = obj.querySelector('description');
-          const image = obj.querySelector('image');
-          const linkPage = obj.querySelector('linkPage');
-          const linkGit = obj.querySelector('linkGit');
-          const skills = obj.querySelector('skills');
-          const about = obj.querySelector('about');
-          const visible = obj.querySelector('visible');
-
-          return {
-            id: id ? id.textContent : '',
-            name: name ? name.textContent : '',
-            description: description ? description.textContent : '',
-            image: image ? image.textContent : '',
-            linkPage: linkPage ? linkPage.textContent : '',
-            linkGit: linkGit ? linkGit.textContent : '',
-            skills: skills ? skills.textContent : '',
-            about: about ? about.textContent : '',
-            visible: visible ? visible.textContent : ''
-          };
-        });
-      })
-    );
-  }*/
   getRepo(): Observable<any[]> {
     return this.http.get(this.xmlUrl, { responseType: 'text' }).pipe(
       map((xmlString: string) => {

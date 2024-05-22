@@ -5,8 +5,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class EmailService {
-  private mailgunApiKey = 'f5d68ca0d8352e642d38fa1d8734adc1-32a0fef1-29de4f36'; // Reemplaza con tu API Key de Mailgun
-  private mailgunDomain = 'sandbox067d1e38515246b2a36c7d0ab7e951e0.mailgun.org'; // Reemplaza con tu dominio de Mailgun
+  private mailgunApiKey = 'f5d68ca0d8352e642d38fa1d8734adc1-32a0fef1-29de4f36'; 
+  private mailgunDomain = 'sandbox067d1e38515246b2a36c7d0ab7e951e0.mailgun.org'; 
 
   constructor(private http: HttpClient) { }
 
@@ -18,7 +18,7 @@ export class EmailService {
     });
 
     const formData = new URLSearchParams();
-    formData.set('from', from); // Reemplaza con tu nombre y dirección de correo electrónico
+    formData.set('from', from); 
     formData.set('to', 'kenbrojim21@gmail.com');
     formData.set('subject', subject);
     formData.set('text', body);

@@ -1,11 +1,9 @@
 .wrapper {
-    max-height: calc(92vh - 60px); /* Ajusta el valor según tus necesidades */
-    /*overflow-y: auto;*/
-   
+    max-height: calc(92vh - 60px);
 }
 
 .wrapper::-webkit-scrollbar {
-    width: 0; /* Oculta la barra de desplazamiento vertical en navegadores webkit */
+    width: 0;
 }
 
 .prin{
@@ -40,8 +38,6 @@ input, textarea{
 
 button{
     background-color: var(--color-1);
-    /*border: none;
-    box-shadow: 0 0 20px #3c3c3c6b;*/
     font-size: 1.2rem;
     border: 1px solid var(--color-text);
     border-radius: 5px;
