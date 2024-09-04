@@ -5,10 +5,10 @@
     <description>A web browser-based access system that allows company administrators to review clock in/out records, attendance reports, 
     work schedules, geolocation marks, and a list of collaborators.</description>
     <image> 
-        <img>/cnet/cnet0.png</img>
-        <img>/cnet/cnet1.png</img>
-        <img>/cnet/cnet2.png</img>
-        <img>/cnet/cnet3.png</img>
+        <img>/cnet/cnet.png</img>
+        <img>/cnet/cnet1.jpg</img>
+        <img>/cnet/cnet3.jpg</img>
+        <img>/cnet/cnet4.jpg</img>
     </image>
     <skills>
       <skill>.NET Framework</skill>
@@ -36,10 +36,10 @@
     <description>Specialized system for efficient management of breakdown reports within a company, 
     adapted for different user roles. This system enables work teams to generate, administer, and track reports in a personalized manner.</description>
     <image> 
-        <img>/rda/RDA0.png</img>
-        <img>/rda/RDA1.png</img>
-        <img>/rda/RDA2.png</img>
-        <img>/rda/RDA3.png</img>
+        <img>/rda/RDA0.jpg</img>
+        <img>/rda/RDA1.jpg</img>
+        <img>/rda/RDA2.jpg</img>
+        <img>/rda/RDA3.jpg</img>
     </image>
     <skills>
       <skill>Angular</skill>
@@ -60,7 +60,7 @@
       <ab>Worked using the Scrum methodology.</ab>
     </about>
     <linkPage></linkPage>
-    <linkGit>https://github.com/YarethLeal/UCR-ReporteAverias-OIJ-IF6100.git</linkGit>
+    <linkGit></linkGit>
     <visible>True</visible>
   </repo>
 
@@ -69,10 +69,10 @@
     <name>HOTEL COCOMILK CLIENTE</name>
     <description>Customized room reservation system for hotels, making it easy for customers to efficiently book rooms.</description>
     <image> 
-        <img>/cocoMilkC/CM0.png</img>
-        <img>/cocoMilkC/CM1.png</img>
-        <img>/cocoMilkC/CM2.png</img>
-        <img>/cocoMilkC/CM3.png</img>
+        <img>/cocoMilkC/CM0.jpg</img>
+        <img>/cocoMilkC/CM1.jpg</img>
+        <img>/cocoMilkC/CM2.jpg</img>
+        <img>/cocoMilkC/CM3.jpg</img>
     </image>
     <skills>
       <skill>Angular</skill>
@@ -100,10 +100,10 @@
     <name>HOTEL COCOMILK ADMINISTRADOR</name>
     <description>Comprehensive system for hotel management, covering room management, reservations, customers, advertising, and more. This solution provides efficient and centralized control, enabling smooth operation.</description>
     <image> 
-        <img>/cocoMilkA/cmA0.png</img>
-        <img>/cocoMilkA/cmA1.png</img>
-        <img>/cocoMilkA/cmA2.png</img>
-        <img>/cocoMilkA/cmA3.png</img>
+        <img>/cocoMilkA/cmA0.jpg</img>
+        <img>/cocoMilkA/cmA1.jpg</img>
+        <img>/cocoMilkA/cmA2.jpg</img>
+        <img>/cocoMilkA/cmA3.jpg</img>
     </image>
     <skills>
       <skill>Angular</skill>
