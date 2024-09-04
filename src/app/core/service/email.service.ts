@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class EmailService {
-  private mailgunApiKey = 'f5d68ca0d8352e642d38fa1d8734adc1-32a0fef1-29de4f36'; 
+  private mailgunApiKey = 'c2858b5375332b5e7ce5b5e8ff0040fb-2b755df8-b0b0f3ef'; 
   private mailgunDomain = 'sandbox067d1e38515246b2a36c7d0ab7e951e0.mailgun.org'; 
 
   constructor(private http: HttpClient) { }
